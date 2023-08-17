@@ -65,7 +65,6 @@ const App = () => {
         </div>
         {rolls.map(({ id, value }) => (
           <div
-            tabIndex={-1}
             className="dice"
             style={
               sides.id == id
